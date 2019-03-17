@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/listIm"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/pName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/listIm"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+
+        android:text="Player Name"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/pRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pName"
+        android:layout_marginTop="38dp"
+        android:layout_alignLeft="@id/listIm"
+        android:layout_marginLeft="74dp"
+        android:textColor="#000"
+
+        android:text="Player Name"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/pPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pName"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="Price:"
+
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/pTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/listIm"
+        android:layout_alignTop="@+id/pRole"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Player Name"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/vstats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/listIm"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/colorPrimary"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pName"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+
+        android:text="10M$"
+        android:textColor="#000"
+        android:textSize="16dp" />
+</RelativeLayout>

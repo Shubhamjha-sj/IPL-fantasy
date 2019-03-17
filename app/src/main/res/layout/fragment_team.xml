@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.jake.fantasy.CreatingTeam1"
+        android:background="@drawable/gradient_12">
+
+
+        <TextView
+            android:id="@+id/batss"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_weight="1"
+            android:text="Batsmen:"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <ListView
+            android:id="@+id/batList11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp" />
+
+        <TextView
+            android:id="@+id/wktss"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/batList1"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="WktKeeper:"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <ListView
+            android:id="@+id/wktList1l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wkts"
+            android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:id="@+id/allss"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wktList1"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="AllRounders:"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <ListView
+            android:id="@+id/allList1l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alls"
+            android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:id="@+id/bowll"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/allList1"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Bowlers:"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <ListView
+            android:id="@+id/bowlList1l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bowl"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="60dp" />
+
+
+        <Button
+            android:id="@+id/popularPlayerss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp"
+            android:background="@drawable/gradient_2"
+            android:onClick="updateFirebase"
+            android:text="View %age"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/editTeamm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/popularPlayers"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="267dp"
+            android:layout_marginTop="-108dp"
+            android:background="@drawable/gradient_2"
+            android:padding="3dp"
+            android:text="Edit Team"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button44"
+            android:background="@drawable/gradient_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="144dp"
+            android:layout_marginRight="144dp"
+            android:textColor="#FFF"
+            android:text="Submit Your Players" />
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
